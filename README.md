@@ -1,2 +1,3 @@
-# Design
-Matéria de design gráfico e hipermídia - Técnico em Manuteção e Suporte em Informatica
+Hi, I’m @Davi
+🙋‍♂️ Hello World, Hello Devs
+e-mail davipaulino7@hotmail.com
