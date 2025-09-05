@@ -1,0 +1,6 @@
+Exsitem diferents posicionamentos de conteudo em uma pagina. o fluxo é seguir do alto a equerda da pagina ate abaixo e a direita.
+Por padrao os elementos tem posicionamento estatico (static). para alterar esse posicionamento temos que partir de um elemento pai, que deve ser configurado com posicionamentorelativo (relative).
+(static)
+(relative)
+(absolut)
+
