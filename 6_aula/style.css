@@ -1,0 +1,63 @@
+/** Estilos gerais para o css **/
+
+*{
+    margin: 0;
+    padding:0;
+
+}
+/** Estilos gerais para o corpo e as caixas **/
+
+body{
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+div {
+    width: 250px;
+    height: 150px;
+    margin: 30px auto;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.2rem;
+
+}
+/** 1. Usando RGBA */
+/** Fundo azul com 70% de opacidade */
+
+.caixa-rgba {
+    background-color: rgba(0, 100, 255, 0.7);
+
+}
+
+/* 2. Usando Box-Shadow 8 */
+/* Simbra preta, 5px para direita e 5px para baixo, com 10px de de */
+
+.caixa-box-shadow {
+    background-color: #3498db;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+/** 3. Combinado RGBA e Box-Shadow */
+/** Fundo verde, com uma sombra suave.
+/** A cor da sombra é preta com 40% de opacidade.
+A sombra não tem deslocamneto (0 3), é difusa (15px de desfoque)
+e levemente expandida (2px de expansaõ). */
+
+.caixa-sombra-suave {
+    background-color: #2ecc71;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
