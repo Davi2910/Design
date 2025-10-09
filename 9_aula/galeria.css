@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Story Script", cursive;
+    background-color: aquamarine;
+}
+
+h1 {
+    margin: 50px auto 30px auto;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#banner{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+img{
+    width: 80%;
+    height: 400%;
+
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px auto 30px auto;
+}
+
+#galeria{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-galeria{
+    max-width: 40%;
+    height: 300px;
+    margin: 20px 10px;
+}
