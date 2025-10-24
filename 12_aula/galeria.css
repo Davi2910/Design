@@ -1,0 +1,52 @@
+/* ==== AJUSTES E MELHORIAS DA NAVBAR ==== */
+
+
+.main-nav {
+    justify-content: space-between; 
+    padding: 0 40px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: black; 
+}
+
+.logo i {
+    font-size: 28px;
+    color: aquamarine;
+    background-color: black;
+}
+
+.logo span {
+    font-size: 1.2em;
+    color: aquamarine;
+    background-color: black;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    width: auto; 
+    padding-right: 20px;
+    background-color: black;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 1.1em;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
+
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: white;
+}
