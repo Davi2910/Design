@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Licorice&family=Lugrasimo&family=Momo+Trust+Display&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Story+Script&family=Roboto&display=swap');
+
+body {
+    font-family: 'Quantico', sans-serif; 
+    margin: 0;
+    background-image: url("imagens/imagem_fundo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    color: #fff; 
+}
+
+
+nav {
+    background-color: rgba(139, 0, 0, 0.9); 
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none; 
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Story Script', cursive; 
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00; 
+}
+
+
+.banner {
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../imagens/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner h1 {
+    font-family: 'Story Script', cursive; 
+    font-size: 80px; 
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.banner p {
+    font-size: 24px;
+    font-family: 'Quantico', sans-serif;
+    text-shadow: 1px 1px 3px #000;
+}
+
+
+.galeria {
+    padding: 40px;
+    text-align: center;
+  
+    background-color: rgba(0, 0, 0, 0.6); 
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 15px;
+}
+
+.galeria h2 {
+    font-family: 'Story Script', cursive;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.galeria-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    
+    text-align: center;
+}
+
+
+.item img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+    cursor: pointer;
+}
+
+.item img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* sobra branca suave*/
+   
+}
+
+.item p {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Quantico', sans-serif;
+}
+
+.sobre, .contato {
+    padding: 50px;
+    max-width: 800px;
+    margin: 40px auto; 
+    
+   
+    background-color: rgba(0, 0, 0, 0.85); 
+    border-radius: 20px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.8); 
+    border: 1px solid #444; 
+    text-align: center;
+}
+
+.sobre h1, .contato h1 {
+    font-family: 'Story Script', cursive;
+    font-size: 55px;
+    color: #ffcc00;
+    margin-bottom: 30px;
+}
+
+.sobre p, .contato p {
+    font-size: 20px;
+    line-height: 1.6; 
+    color: #eee;
+}
